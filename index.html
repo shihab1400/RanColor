@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>RanColor</title>
+      <link rel="stylesheet" href="styles.css" />
+      <link rel="icon" href="./assets/color-palette_2280559.ico" />
+   </head>
+   <body>
+      <div class="container">
+         <div class="top-score-container">
+            <div class="personal-best-container">
+               <h3>Best Match</h3>
+               <hr />
+               <span class="best-match-score"></span>
+            </div>
+            <div class="global-best-container">
+               <h3>Best Average</h3>
+               <hr />
+               <span class="best-average-score"></span>
+            </div>
+         </div>
+         <div class="game-box">
+            <div class="color-container"></div>
+            <button class="try-again-btn display-none">
+               <img src="./assets/refresh-button.png" alt="" />
+            </button>
+         </div>
+         <div class="score-container">
+            <div class="round-score-container">
+               <h3 class="score-heading">Matched</h3>
+               <hr />
+               <span class="score" id="round-score"></span>
+            </div>
+            <div class="avg-score-container">
+               <h3 class="score-heading">Average</h3>
+               <hr />
+               <span class="score" id="avg-score"></span>
+            </div>
+         </div>
+         <button class="shuffle-btn">
+            <img src="./assets/refresh-button.png" alt="" />
+            New Colors
+         </button>
+      </div>
+
+      <script src="index.js"></script>
+   </body>
+</html>
